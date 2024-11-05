@@ -12,7 +12,7 @@ source:
 
 build:
   skip: true  # [win]
-  number: 5
+  number: 6
   entry_points:
     - razdel-ctl=razdel.tests.ctl:main
   script: {{ PYTHON }} -m pip install . -vv
